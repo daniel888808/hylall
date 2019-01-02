@@ -89,7 +89,7 @@ class building_show_management_page extends ActionHandler {
                                 <td class="py-0">
                                     <div class="btn-group" role="group" aria-label="Basic example">
                                         
-                                         <a type="button" class="btn bg-transparent p-2" onclick="(new building_show_update_page_P('building','show_update_page_P','body1')).run()">
+                                         <a type="button" class="btn bg-transparent p-2" onclick="(new building_show_update_page_P('building','show_update_page_P','body1','${ds[i]['constructor']['id']}','${ds[i]['constructor']['name']}')).run()">
                                         
                                     <i class="fa fa-pencil-square-o fa-lg text-dark"></i>
                                 </a>

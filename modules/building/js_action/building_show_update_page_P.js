@@ -1,7 +1,9 @@
 class building_show_update_page_P extends ActionHandler {
-    constructor(module, action, position_id) {
+    constructor(module, action, position_id,constructorid,constructorname) {
         super(module, action);
         this.position_id = position_id;
+        this.constructorid=constructorid;
+        this.constructorname=constructorname;
         
     }
     prepareArgs() {
